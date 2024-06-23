@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv_style_jp.xsl"?>
+<CV>
+    <PersonalInformation>
+        <Name>イサム アリク</Name>
+        <Address>ジョルジュ・ポンピドゥー通り6番地, 93440 デュニ</Address>
+        <Phone>06 59 80 55 38</Phone>
+        <Email>issameddine.alik@gmail.com</Email>
+        <LinkedIn>https://www.linkedin.com/in/alik-issam-9abb11252/</LinkedIn>
+    </PersonalInformation>
+    <Education>
+        <Degree>
+            <Years>2022 - 2025</Years>
+            <Institution>エンジニアリングスクール, コンピュータサイエンス, スープガリー (ヴィルタネーズ)</Institution>
+        </Degree>
+        <Degree>
+            <Years>2020 - 2022</Years>
+            <Institution>エンジニア準備クラス, スープガリー (ヴィルタネーズ)</Institution>
+        </Degree>
+        <Degree>
+            <Year>2020</Year>
+            <Institution>科学バカロレア, 優等, ジェルメーヌ・ティヨン高校 (ル・ブルジェ)</Institution>
+        </Degree>
+        <Degree>
+            <Year>2017</Year>
+            <Institution>中学校証明書, 優等, ジャン＝バティスト・クレメントカレッジ (デュニ)</Institution>
+        </Degree>
+    </Education>
+    <Experience>
+        <Job>
+            <Title>臨時作業の総合従業員</Title>
+            <Company>ルクレール</Company>
+            <Responsibilities>レジと棚の管理</Responsibilities>
+            <Duration>2020年6月 - 現在</Duration>
+        </Job>
+        <Job>
+            <Company>プライマーク</Company>
+            <Responsibilities>棚の管理と整理</Responsibilities>
+        </Job>
+        <Job>
+            <Company>カルフール</Company>
+            <Responsibilities>レジと物流</Responsibilities>
+        </Job>
+        <Job>
+            <Title>データオプスエンジニア</Title>
+            <Company>BNPパリバ・カーディフ</Company>
+            <Responsibilities>データ運用管理とワークフローの最適化</Responsibilities>
+            <Duration>2023年9月 - 現在</Duration>
+        </Job>
+    </Experience>
+    <Projects>
+        <Project>
+            <Language>C</Language>
+            <Description>C言語でのテトリススタイルのゲームの作成</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>GTK 3.0を使用してCでマスターマインドゲームを作成</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>C言語で確率システムを備えたバイナリ検索ツリープログラムの作成</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>Cでの最短経路検索アルゴリズムの実装とRATPフレームワーク内での適用</Description>
+        </Project>
+        <Project>
+            <Language>Python</Language>
+            <Description>NumPyを使用したPythonでのグラフクラスタリングアルゴリズムの実装</Description>
+        </Project>
+        <Project>
+            <Language>HTML/CSS</Language>
+            <Description>レスポンシブデザインを使用したウェブサイトの作成</Description>
+        </Project>
+        <Project>
+            <Language>R Studio</Language>
+            <Description>2018年の世界教育のデータ分析と統計調査</Description>
+        </Project>
+    </Projects>
+    <Skills>
+        <Languages>
+            <Language>フランス語</Language>
+            <Proficiency>バイリンガル</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>英語</Language>
+            <Proficiency>プロフェッショナル</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>アラビア語</Language>
+            <Proficiency>バイリンガル</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>スペイン語</Language>
+            <Proficiency>中級</Proficiency>
+        </Languages>
+        <SoftSkills>
+            <Skill>優れた分析能力</Skill>
+            <Skill>コミュニケーションスキル</Skill>
+            <Skill>完璧主義者</Skill>
+            <Skill>チームプレイヤー</Skill>
+            <Skill>適応性がある</Skill>
+            <Skill>マーケティングと一般化のセンス</Skill>
+        </SoftSkills>
+        <TechnicalSkills>
+            <Skill>NumPy、Python、R Studio、Oracle SQL、Matlab、HTML/CSS、C、Java、PHP、JavaScript、Pandas、SciPyのプログラミング</Skill>
+            <Skill>統計学、アルゴリズム（基本、グラフ）、リレーショナルデータベースの強固な基盤</Skill>
+            <Skill>Officeスイート、LaTeX、SAS</Skill>
+        </TechnicalSkills>
+    </Skills>
+    <Objective>
+        <Text>24か月の見習い契約を探しています。リズム：会社での2か月のうち1か月。利用可能日：2023年9月から</Text>
+    </Objective>
+</CV>

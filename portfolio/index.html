@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <title>portfolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function loadXMLDoc(filename) {
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("GET", filename, false);
+            xhttp.send();
+            return xhttp.responseXML;
+        }
+
+        function displayCV(language) {
+            let xmlFile = `cv_${language}.xml`;
+            let xslFile = `cv_style_${language}.xsl`;
+
+            // Charger les fichiers XML et XSL
+            let xml = loadXMLDoc(xmlFile);
+            let xsl = loadXMLDoc(xslFile);
+
+            // Transformer XML en utilisant XSL
+            if (window.ActiveXObject || "ActiveXObject" in window) {
+                // Pour IE
+                let ex = xml.transformNode(xsl);
+                document.getElementById("cvContent").innerHTML = ex;
+            } else if (document.implementation && document.implementation.createDocument) {
+                // Pour les autres navigateurs
+                let xsltProcessor = new XSLTProcessor();
+                xsltProcessor.importStylesheet(xsl);
+                let resultDocument = xsltProcessor.transformToFragment(xml, document);
+                document.getElementById("cvContent").innerHTML = "";
+                document.getElementById("cvContent").appendChild(resultDocument);
+            }
+        }
+
+        window.onload = function() {
+            displayCV('fr'); // Langue par défaut
+        }
+    </script>
 </head>
-
 <body>
-  <p>Hello World</p>
+    <div class="container">
+        <h1>CV - Issam ALIK</h1>
+        <div class="buttons">
+            <button onclick="displayCV('fr')">Français</button>
+            <button onclick="displayCV('en')">English</button>
+            <button onclick="displayCV('jp')">日本語</button>
+        </div>
+        <div id="cvContent"></div>
+        <div class="section">
+            <div class="section-title">Vidéo YouTube</div>
+            <div id="youtube-video" style="margin-top: 20px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-ol3PSROlwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>

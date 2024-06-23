@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv_style.xsl"?>
+<CV>
+    <PersonalInformation>
+        <Name>Issam ALIK</Name>
+        <Address>6 rue président Georges Pompidou, 93440 Dugny</Address>
+        <Phone>06 59 80 55 38</Phone>
+        <Email>issameddine.alik@gmail.com</Email>
+        <LinkedIn>https://www.linkedin.com/in/alik-issam-9abb11252/</LinkedIn>
+    </PersonalInformation>
+    <Education>
+        <Degree>
+            <Years>2022 - 2025</Years>
+            <Institution>Ecole d'ingénieurs, spécialité informatique, SupGalilée (Villetaneuse)</Institution>
+        </Degree>
+        <Degree>
+            <Years>2020 - 2022</Years>
+            <Institution>Classe préparatoire ingénieur intégrée, SupGalilée (Villetaneuse)</Institution>
+        </Degree>
+        <Degree>
+            <Year>2020</Year>
+            <Institution>Baccalauréat scientifique, mention Très Bien, lycée Germaine Tillon (Le Bourget)</Institution>
+        </Degree>
+        <Degree>
+            <Year>2017</Year>
+            <Institution>Brevet des collèges, mention Très Bien, collège Jean-Baptiste Clément (Dugny)</Institution>
+        </Degree>
+    </Education>
+    <Experience>
+        <Job>
+            <Title>Employé polyvalent en intérim</Title>
+            <Company>Leclerc</Company>
+            <Responsibilities>Encaissement et gestion des rayons</Responsibilities>
+            <Duration>Juin 2020 - Aujourd'hui</Duration>
+        </Job>
+        <Job>
+            <Company>Primark</Company>
+            <Responsibilities>Gestion des rayons et rangement</Responsibilities>
+        </Job>
+        <Job>
+            <Company>Carrefour</Company>
+            <Responsibilities>Encaissement et logistique</Responsibilities>
+        </Job>
+        <Job>
+            <Title>Data Ops Engineer</Title>
+            <Company>BNP Paribas Cardif</Company>
+            <Responsibilities>Gestion des opérations de données et optimisation des flux de travail</Responsibilities>
+            <Duration>Septembre 2023 - Aujourd'hui</Duration>
+        </Job>
+    </Experience>
+    <Projects>
+        <Project>
+            <Language>C</Language>
+            <Description>Création d'un jeu style Tetris en C</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>Création d'un jeu Mastermind en C (via GTK 3.0)</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>Création d'un programme d'arbre binaire de recherche avec système de probabilité en C</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>Projet d'implémentation d'un algorithme de recherche d'un plus court chemin en C et application dans le cadre de la RATP</Description>
+        </Project>
+        <Project>
+            <Language>Python</Language>
+            <Description>Implémentation d'un algorithme de clustering de graphes en Python à l'aide de NumPy</Description>
+        </Project>
+        <Project>
+            <Language>HTML/CSS</Language>
+            <Description>Projet de création d'un site internet avec Responsible Design</Description>
+        </Project>
+        <Project>
+            <Language>R Studio</Language>
+            <Description>Analyse des données et étude statistique de la scolarisation dans le monde en 2018</Description>
+        </Project>
+    </Projects>
+    <Skills>
+        <Languages>
+            <Language>Français</Language>
+            <Proficiency>Bilingue</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>Anglais</Language>
+            <Proficiency>Professionnel</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>Arabe</Language>
+            <Proficiency>Bilingue</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>Espagnol</Language>
+            <Proficiency>Intermédiaire</Proficiency>
+        </Languages>
+        <SoftSkills>
+            <Skill>Excellente capacité d'analyse</Skill>
+            <Skill>Sens de la communication</Skill>
+            <Skill>Perfectionniste</Skill>
+            <Skill>Aime travailler en équipe</Skill>
+            <Skill>S'adapte facilement</Skill>
+            <Skill>Sens du marketing et de la vulgarisation</Skill>
+        </SoftSkills>
+        <TechnicalSkills>
+            <Skill>Programmation en NumPy, Python, R Studio, Oracle SQL, Matlab, HTML/CSS, C, Java, PHP, JavaScript, Pandas, SciPy</Skill>
+            <Skill>Bases solides en statistiques, algorithmique (basique, graphe), bases de données relationnelles</Skill>
+            <Skill>Pack Office, LaTeX, SAS</Skill>
+        </TechnicalSkills>
+    </Skills>
+    <Objective>
+        <Text>À la recherche d'un contrat d'apprentissage de 24 mois. Rythme : 1 mois sur 2 en entreprise. Disponibilité : dès Septembre 2023</Text>
+    </Objective>
+</CV>

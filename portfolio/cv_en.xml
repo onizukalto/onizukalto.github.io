@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv_style_en.xsl"?>
+<CV>
+    <PersonalInformation>
+        <Name>Issam ALIK</Name>
+        <Address>6 rue président Georges Pompidou, 93440 Dugny</Address>
+        <Phone>06 59 80 55 38</Phone>
+        <Email>issameddine.alik@gmail.com</Email>
+        <LinkedIn>https://www.linkedin.com/in/alik-issam-9abb11252/</LinkedIn>
+    </PersonalInformation>
+    <Education>
+        <Degree>
+            <Years>2022 - 2025</Years>
+            <Institution>Engineering School, Computer Science, SupGalilée (Villetaneuse)</Institution>
+        </Degree>
+        <Degree>
+            <Years>2020 - 2022</Years>
+            <Institution>Preparatory Class for Engineering, SupGalilée (Villetaneuse)</Institution>
+        </Degree>
+        <Degree>
+            <Year>2020</Year>
+            <Institution>Scientific Baccalaureate, with honors, Germaine Tillon High School (Le Bourget)</Institution>
+        </Degree>
+        <Degree>
+            <Year>2017</Year>
+            <Institution>Middle School Certificate, with honors, Jean-Baptiste Clément College (Dugny)</Institution>
+        </Degree>
+    </Education>
+    <Experience>
+        <Job>
+            <Title>General Employee in Temporary Work</Title>
+            <Company>Leclerc</Company>
+            <Responsibilities>Cashier and shelf management</Responsibilities>
+            <Duration>June 2020 - Present</Duration>
+        </Job>
+        <Job>
+            <Company>Primark</Company>
+            <Responsibilities>Shelf management and organization</Responsibilities>
+        </Job>
+        <Job>
+            <Company>Carrefour</Company>
+            <Responsibilities>Cashier and logistics</Responsibilities>
+        </Job>
+        <Job>
+            <Title>Data Ops Engineer</Title>
+            <Company>BNP Paribas Cardif</Company>
+            <Responsibilities>Data operations management and workflow optimization</Responsibilities>
+            <Duration>September 2023 - Present</Duration>
+        </Job>
+    </Experience>
+    <Projects>
+        <Project>
+            <Language>C</Language>
+            <Description>Creation of a Tetris-style game in C</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>Creation of a Mastermind game in C (via GTK 3.0)</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>Creation of a binary search tree program with probability system in C</Description>
+        </Project>
+        <Project>
+            <Language>C</Language>
+            <Description>Implementation of a shortest path search algorithm in C and application within the RATP framework</Description>
+        </Project>
+        <Project>
+            <Language>Python</Language>
+            <Description>Implementation of a graph clustering algorithm in Python using NumPy</Description>
+        </Project>
+        <Project>
+            <Language>HTML/CSS</Language>
+            <Description>Creation of a website with Responsive Design</Description>
+        </Project>
+        <Project>
+            <Language>R Studio</Language>
+            <Description>Data analysis and statistical study of global education in 2018</Description>
+        </Project>
+    </Projects>
+    <Skills>
+        <Languages>
+            <Language>French</Language>
+            <Proficiency>Bilingual</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>English</Language>
+            <Proficiency>Professional</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>Arabic</Language>
+            <Proficiency>Bilingual</Proficiency>
+        </Languages>
+        <Languages>
+            <Language>Spanish</Language>
+            <Proficiency>Intermediate</Proficiency>
+        </Languages>
+        <SoftSkills>
+            <Skill>Excellent analytical skills</Skill>
+            <Skill>Communication skills</Skill>
+            <Skill>Perfectionist</Skill>
+            <Skill>Team player</Skill>
+            <Skill>Adaptable</Skill>
+            <Skill>Marketing sense and popularization</Skill>
+        </SoftSkills>
+        <TechnicalSkills>
+            <Skill>Programming in NumPy, Python, R Studio, Oracle SQL, Matlab, HTML/CSS, C, Java, PHP, JavaScript, Pandas, SciPy</Skill>
+            <Skill>Strong foundation in statistics, algorithms (basic, graph), relational databases</Skill>
+            <Skill>Office Suite, LaTeX, SAS</Skill>
+        </TechnicalSkills>
+    </Skills>
+    <Objective>
+        <Text>Looking for a 24-month apprenticeship contract. Rhythm: 1 month out of 2 in the company. Availability: from September 2023</Text>
+    </Objective>
+</CV>
